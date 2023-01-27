@@ -6,7 +6,7 @@
 System.Console.Write("Введите число: ");
 int N = Convert.ToInt32(Console.ReadLine());
 
-if(N >99 && <1000)
+if (N > 99 && N < 1000)
 {
     System.Console.WriteLine("Последняя цифра числа:" + N % 10);
 }
